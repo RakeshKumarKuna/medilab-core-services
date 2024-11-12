@@ -18,9 +18,9 @@ import lombok.Data;
  *
  */
 @Entity
-@Table(name ="Department" )
+@Table(name ="DocterSchedule" )
 @Data
-public class Department implements Serializable {
+public class DocterSchedule implements Serializable {
 
 	/**
 	 * 
@@ -28,7 +28,7 @@ public class Department implements Serializable {
 	private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-	private int departmentId;
+	private int docterscheduleId;
 	@Column
     private String name;
 	@Column

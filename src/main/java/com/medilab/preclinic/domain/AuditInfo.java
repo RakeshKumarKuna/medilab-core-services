@@ -4,8 +4,6 @@ import java.io.Serializable;
 import java.util.Date;
 
 import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
 import lombok.Data;
 @Data
 public class AuditInfo implements Serializable {
