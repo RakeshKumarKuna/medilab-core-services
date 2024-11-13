@@ -12,12 +12,8 @@ public class AuditInfo implements Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	@Column
 	private String createdBy;
-	@Column
 	private Date createDate;
-	@Column
 	private String updatedBy;
-	@Column
 	private Date updatedDate;
 }

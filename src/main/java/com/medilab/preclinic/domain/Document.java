@@ -17,6 +17,11 @@ import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
 import jakarta.persistence.Transient;
 import lombok.Data;
+/**
+ * 
+ * @author Rakesh Kumar Kuna
+ *
+ */
 @Entity
 @Table(name ="Document" )
 @Data
